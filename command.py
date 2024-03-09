@@ -1,5 +1,6 @@
 from translate import TranslateCommand
 from kanban import KanbanModule
+from rolls import RollsModule
 
 class BotCommands:
       
@@ -13,7 +14,8 @@ class BotCommands:
             cSc+'poll': self.poll_command,
             cSc+'link': self.link_command,
             cSc+'translate': self.translate_command,
-            cSc+'kanban': self.kanban_command
+            cSc+'kanban': self.kanban_command,
+            cSc+'roll': self.roll_command
         }
             
     # Define command functions (can also be moved to a separate module)
@@ -54,4 +56,11 @@ class BotCommands:
 
         await message.channel.send('Kanban! - ' + message.content)
 
+    # A command to make dice rolls and create preset rolls for use in real-world or online tabletop games.
+    async def roll_command(self, message):
+        
+        module = RollsModule();
+        
+        output = module.execute(message)
 
+        await message.channel.send(output)

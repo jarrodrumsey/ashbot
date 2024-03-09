@@ -26,6 +26,7 @@
   <ItemGroup>
     <Compile Include="command.py" />
     <Compile Include="hashtable.py" />
+    <Compile Include="rolls.py" />
     <Compile Include="kanban.py" />
     <Compile Include="main.py" />
     <Compile Include="bot.py" />
