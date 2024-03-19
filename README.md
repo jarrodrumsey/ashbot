@@ -8,7 +8,6 @@ Ashbot is an innovative, in-development Discord bot based on the discord.py libr
 
 - **Modular Design**: Ashbot is built with a modular approach, allowing easy integration and updates of command modules to extend its capabilities.
 - **In-Development**: Currently under active development, with plans to continuously add new features and improvements based on community feedback and technological advancements.
-- **Community-Focused**: Designed to support community engagement, server management, and entertainment with a range of commands tailored to user needs.
 
 ## Planned Features
 
