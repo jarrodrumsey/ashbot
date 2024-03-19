@@ -18,7 +18,7 @@ Ashbot is an innovative, in-development Discord bot based on the discord.py libr
 
 ## Release
 
-There is currently now planned release for my version of this bot; and I am currently working on redoing the bot with more up-to-date sytems.
+There is currently no planned release for my version of this bot at this time as it is still under development, and I am currently working on redoing the bot with more up-to-date library functionality.
 
 ## Contributing
 
