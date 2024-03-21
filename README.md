@@ -2,7 +2,7 @@
 
 ## Introduction
 
-Ashbot is an innovative, in-development Discord bot based on the discord.py library, initiated in January 2023. It aims to enhance user experience on Discord by providing a variety of functionalities through command modules, which will be expanded over time to incorporate more features. Ashbot is designed with the community in mind, aiming to facilitate interactions, improve server management, and entertain users through a wide range of commands.
+Ashbot is an in-development Discord bot based on the discord.py library, initiated in January 2023. It aims to enhance user experience on Discord by providing a variety of functionalities through command modules, which will be expanded over time to incorporate more features. Ashbot is designed with the community in mind, aiming to facilitate interactions, improve server management, and entertain users through a wide range of commands.
 
 ## Features
 
